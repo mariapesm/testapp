@@ -79,7 +79,7 @@ passport.deserializeUser(function (id, done) {
 passport.use(new GitHubStrategy({
         clientID: githubId,
         clientSecret: githubSecret,
-        callbackURL: "https://button-season.glitch.me/auth/github/callback"
+        callbackURL: "https://applicationclonepinterest.herokuapp.com/auth/github/callback"
     },
     function (accessToken, refreshToken, profile, cb) {
 
