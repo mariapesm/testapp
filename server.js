@@ -23,8 +23,8 @@ app.get("/favicon.ico", (req, res) => {
 //handle login with github begin
 const GitHubStrategy = require('passport-github').Strategy;
 const passport = require("passport");
-const githubId = "9a79c839f87a2100f838";
-const githubSecret = "4119d13491a10f109586e1f0af2ad4d88cf2e1bd";
+const githubId = "bdf1f2a9159aa80750e1";
+const githubSecret = "6a87f0de8731a5c4d7b66bff679b334c97b332cb";
 
 app.use(require('cookie-parser')());
 app.use(require('body-parser').urlencoded({extended: true}));
